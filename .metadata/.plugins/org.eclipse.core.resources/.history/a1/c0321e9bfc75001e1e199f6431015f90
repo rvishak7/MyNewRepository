@@ -1,0 +1,41 @@
+/**
+ * 
+ */
+package com.qa.mylearning;
+
+/**
+ * 
+ */
+public class Array {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+String[] students = {"Vishak:","Jaishree:","Sree:"};
+int [] age = {5,10,20};
+System.out.println("Student 1:" +students[0] +  age[0]);
+System.out.println("Student 2:" +students[1] +  age[1]);
+System.out.println("Student 3:" +students[2] +  age[2]);
+System.out.println("My array " +students.length);
+
+
+for(String stud: students)
+System.out.println("for loop" + stud);
+for (int number : age)
+	System.out.println("age is " + number);
+{
+	for(int i=0; i<3; i++)
+	System.out.println("index is" + i + "loop" + students[i]);
+}}
+	
+	{
+		
+	}
+		
+
+}
+
+ 

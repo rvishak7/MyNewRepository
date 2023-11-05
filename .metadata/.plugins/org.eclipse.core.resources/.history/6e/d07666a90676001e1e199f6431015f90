@@ -1,0 +1,26 @@
+package com.qa.mylearning;
+import java.util.Scanner;
+
+public class OddOrEven {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter The Value :");
+		int a = scanner.nextInt();
+
+
+		if (a % 2 == 0)		
+		{
+			System.out.println("Even Number " + a);
+		}
+		else {
+			
+			System.out.println("Odd Number " + a);
+		}
+scanner.close();
+	
+
+	}
+	
+}

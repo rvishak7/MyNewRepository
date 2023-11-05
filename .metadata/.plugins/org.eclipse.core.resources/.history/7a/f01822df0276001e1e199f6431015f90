@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.qa.mylearning;
+
+/**
+ * 
+ */
+public class Printing1to100 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
